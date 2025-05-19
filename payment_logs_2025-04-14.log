@@ -1,0 +1,124 @@
+[2025-04-14 21:47:52] [INFO] Request Method: POST
+[2025-04-14 21:47:52] [INFO] Request Headers: {"Host":"localhost","Connection":"keep-alive","Content-Length":"675","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Microsoft Edge\";v=\"122\"","sec-ch-ua-platform":"\"Windows\"","sec-ch-ua-mobile":"?0","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/122.0.0.0 Safari\/537.36 Edg\/122.0.0.0","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryWWh6X0BkmAw4bYvk","Accept":"*\/*","Origin":"http:\/\/localhost","Sec-Fetch-Site":"same-origin","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost\/Magdalene-main\/don.php","Accept-Encoding":"gzip, deflate, br","Accept-Language":"en-GB,en;q=0.9,en-US;q=0.8","Cookie":"PHPSESSID=4tg5g20gchp6qdmscmo7k54pom"}
+[2025-04-14 21:47:53] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "phone": "897077262"
+}
+[2025-04-14 21:47:53] [ERROR] PAYCHANGU_SECRET_KEY environment variable not set
+[2025-04-14 21:54:26] [INFO] Request Method: POST
+[2025-04-14 21:54:26] [INFO] Request Headers: {"Host":"localhost","Connection":"keep-alive","Content-Length":"675","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Microsoft Edge\";v=\"122\"","sec-ch-ua-platform":"\"Windows\"","sec-ch-ua-mobile":"?0","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/122.0.0.0 Safari\/537.36 Edg\/122.0.0.0","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryxC12PsumawW5O4gr","Accept":"*\/*","Origin":"http:\/\/localhost","Sec-Fetch-Site":"same-origin","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost\/Magdalene-main\/don.php","Accept-Encoding":"gzip, deflate, br","Accept-Language":"en-GB,en;q=0.9,en-US;q=0.8","Cookie":"PHPSESSID=4tg5g20gchp6qdmscmo7k54pom"}
+[2025-04-14 21:54:26] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "phone": "897077262"
+}
+[2025-04-14 21:54:26] [ERROR] PAYCHANGU_SECRET_KEY environment variable not set
+[2025-04-14 21:55:23] [INFO] Request Method: POST
+[2025-04-14 21:55:23] [INFO] Request Headers: {"Host":"localhost","Connection":"keep-alive","Content-Length":"675","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Microsoft Edge\";v=\"122\"","sec-ch-ua-platform":"\"Windows\"","sec-ch-ua-mobile":"?0","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/122.0.0.0 Safari\/537.36 Edg\/122.0.0.0","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryRXluYPrAwTsNfZUo","Accept":"*\/*","Origin":"http:\/\/localhost","Sec-Fetch-Site":"same-origin","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost\/Magdalene-main\/don.php","Accept-Encoding":"gzip, deflate, br","Accept-Language":"en-GB,en;q=0.9,en-US;q=0.8","Cookie":"PHPSESSID=4tg5g20gchp6qdmscmo7k54pom"}
+[2025-04-14 21:55:23] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "phone": "882667288"
+}
+[2025-04-14 21:55:23] [ERROR] PAYCHANGU_SECRET_KEY environment variable not set
+[2025-04-14 21:59:00] [INFO] Request Method: POST
+[2025-04-14 21:59:00] [INFO] Request Headers: {"Host":"localhost","Connection":"keep-alive","Content-Length":"675","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Microsoft Edge\";v=\"122\"","sec-ch-ua-platform":"\"Windows\"","sec-ch-ua-mobile":"?0","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/122.0.0.0 Safari\/537.36 Edg\/122.0.0.0","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundarypQhTVbKIDpXYuQG8","Accept":"*\/*","Origin":"http:\/\/localhost","Sec-Fetch-Site":"same-origin","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost\/Magdalene-main\/don.php","Accept-Encoding":"gzip, deflate, br","Accept-Language":"en-GB,en;q=0.9,en-US;q=0.8","Cookie":"PHPSESSID=4tg5g20gchp6qdmscmo7k54pom"}
+[2025-04-14 21:59:00] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "phone": "882667288"
+}
+[2025-04-14 21:59:00] [INFO] Payment initiation requested
+[2025-04-14 21:59:00] [INFO] Generated charge_id: 88020bff
+[2025-04-14 21:59:00] [INFO] Preparing to send payment request to Paychangu: {
+    "mobile_money_operator_ref_id": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "amount": 50,
+    "mobile": "882667288",
+    "email": "anniemangoche@gmail.com",
+    "first_name": "memory",
+    "last_name": "banda",
+    "charge_id": "88020bff"
+}
+[2025-04-14 21:59:10] [ERROR] Payment initiation exception: cURL error 28: Failed to connect to api.paychangu.com port 443 after 10005 ms: Timeout was reached (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/initialize
+[2025-04-14 22:01:17] [INFO] Request Method: POST
+[2025-04-14 22:01:17] [INFO] Request Headers: {"Host":"localhost","Connection":"keep-alive","Content-Length":"675","sec-ch-ua":"\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Microsoft Edge\";v=\"122\"","sec-ch-ua-platform":"\"Windows\"","sec-ch-ua-mobile":"?0","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/122.0.0.0 Safari\/537.36 Edg\/122.0.0.0","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryeiown87itD4LTBdQ","Accept":"*\/*","Origin":"http:\/\/localhost","Sec-Fetch-Site":"same-origin","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost\/Magdalene-main\/don.php","Accept-Encoding":"gzip, deflate, br","Accept-Language":"en-GB,en;q=0.9,en-US;q=0.8","Cookie":"PHPSESSID=4tg5g20gchp6qdmscmo7k54pom"}
+[2025-04-14 22:01:17] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "phone": "897077262"
+}
+[2025-04-14 22:01:17] [INFO] Payment initiation requested
+[2025-04-14 22:01:17] [INFO] Generated charge_id: 48655ceb
+[2025-04-14 22:01:17] [INFO] Preparing to send payment request to Paychangu: {
+    "mobile_money_operator_ref_id": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "amount": 50,
+    "mobile": "897077262",
+    "email": "anniemangoche@gmail.com",
+    "first_name": "memory",
+    "last_name": "banda",
+    "charge_id": "48655ceb"
+}
+[2025-04-14 22:01:27] [INFO] Paychangu initialization response (status 200): {
+    "status": "success",
+    "message": "Payment initiated successfully.",
+    "data": {
+        "charge_id": "48655ceb",
+        "ref_id": "48752101699",
+        "trans_id": "59581338677",
+        "currency": "MK",
+        "amount": 51.5,
+        "first_name": "memory",
+        "last_name": "banda",
+        "email": "anniemangoche@gmail.com",
+        "type": "Direct API Payment",
+        "trace_id": "nACHcBJ2DcqrKQ5sTg5wsyU7Sw15vFen",
+        "status": "pending",
+        "mobile": "+265897xxxx62",
+        "attempts": 1,
+        "mode": "live",
+        "created_at": "2025-04-14T20:01:22.000000Z",
+        "completed_at": null,
+        "event_type": "api.charge.payment",
+        "mobile_money": {
+            "name": "TNM Mpamba",
+            "ref_id": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+            "country": "Malawi"
+        },
+        "transaction_charges": {
+            "currency": "MK",
+            "amount": "1.5"
+        },
+        "authorization": {
+            "channel": "Mobile Money",
+            "card_number": null,
+            "expiry": null,
+            "brand": null,
+            "provider": "TNM Mpamba",
+            "mobile_number": null,
+            "payer_bank_uuid": null,
+            "payer_bank": null,
+            "payer_account_number": null,
+            "payer_account_name": null,
+            "completed_at": null
+        },
+        "logs": []
+    },
+    "gateway_response": null
+}
+[2025-04-14 22:01:28] [ERROR] Transaction exception: Unknown column 'created_at' in 'field list'

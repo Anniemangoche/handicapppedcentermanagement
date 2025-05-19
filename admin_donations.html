@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations - Magdalene Home of Handicapped</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const cashDonationsList = document.getElementById("cash-donations-list");
+            const resourceDonationsList = document.getElementById("resource-donations-list");
+
+            // Sample data for cash donations
+            const cashDonations = [
+                { amount: 50000, phone: "0887425569", email: "Anonymous", name: "" },
+                { amount: 10000, phone: "0987654321", email: "donations@magdalene.com", name: "Nita" },
+            ];
+
+            // Sample data for resource donations
+            const resourceDonations = [
+                { resource: "Blankets", description: "20 blankets", donor: "Organisation1", delivery: "Courier" },
+                { resource: "Books", description: "50 textbooks for children", donor: "School", delivery: "In-person" },
+            ];
+
+            // Populate cash donations table
+            const renderCashDonations = () => {
+                cashDonationsList.innerHTML = "";
+                cashDonations.forEach((donation) => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td>K${donation.amount}</td>
+                        <td>${donation.phone}</td>
+                        <td>${donation.email}</td>
+                        <td>${donation.name || "Anonymous"}</td>
+                    `;
+                    cashDonationsList.appendChild(row);
+                });
+            };
+
+            // Populate resource donations table
+            const renderResourceDonations = () => {
+                resourceDonationsList.innerHTML = "";
+                resourceDonations.forEach((donation) => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td>${donation.resource}</td>
+                        <td>${donation.description}</td>
+                        <td>${donation.donor}</td>
+                        <td>${donation.delivery}</td>
+                    `;
+                    resourceDonationsList.appendChild(row);
+                });
+            };
+
+            // Render tables
+            renderCashDonations();
+            renderResourceDonations();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">MAGDALENE</a></div>
+        <nav>
+            <a href="director_dashboard.html">Dashboard</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Donations</h1>
+            <p>View all cash and resource donations made to the organization.</p>
+        </section>
+        <section class="features">
+            <h2>Cash Donations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Amount</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody id="cash-donations-list">
+                    <!-- Cash donations will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+        <section class="features">
+            <h2>Resource Donations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Description</th>
+                        <th>Donor</th>
+                        <th>Mode of Delivery</th>
+                    </tr>
+                </thead>
+                <tbody id="resource-donations-list">
+                    <!-- Resource donations will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© Magdalene Home of Handicapped. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

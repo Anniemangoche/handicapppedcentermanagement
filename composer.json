@@ -1,0 +1,15 @@
+{
+    "name": "annie/magdalene-main",
+    "autoload": {
+        "psr-4": {
+            "Annie\\MagdaleneMain\\": "src/"
+        }
+    },
+    "require": {
+        "setasign/fpdf": "*",
+        "guzzlehttp/guzzle": "^7.9",
+        "ramsey/uuid": "^4.7",
+        "phpmailer/phpmailer": "*",
+        "tecnickcom/tcpdf": "^6.9"
+    }
+}

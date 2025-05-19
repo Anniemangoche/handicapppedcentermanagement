@@ -1,0 +1,225 @@
+[2025-04-15 13:15:54] [INFO] Request Method: POST
+[2025-04-15 13:15:54] [INFO] Request Headers: {"Host":"localhost","Connection":"keep-alive","Content-Length":"675","sec-ch-ua-platform":"\"Windows\"","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36 Edg\/135.0.0.0","sec-ch-ua":"\"Microsoft Edge\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundarySOqWlaei8opqmFlj","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost","Sec-Fetch-Site":"same-origin","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost\/Magdalene-main\/don.php","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-GB,en;q=0.9,en-US;q=0.8"}
+[2025-04-15 13:15:54] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "phone": "897077262"
+}
+[2025-04-15 13:15:54] [INFO] Payment initiation requested
+[2025-04-15 13:15:54] [INFO] Generated charge_id: 8b5dbfb3
+[2025-04-15 13:15:54] [INFO] Preparing to send payment request to Paychangu: {
+    "mobile_money_operator_ref_id": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "amount": 50,
+    "mobile": "897077262",
+    "email": "anniemangoche@gmail.com",
+    "first_name": "memory",
+    "last_name": "banda",
+    "charge_id": "8b5dbfb3"
+}
+[2025-04-15 13:16:03] [INFO] Paychangu initialization response (status 200): {
+    "status": "success",
+    "message": "Payment initiated successfully.",
+    "data": {
+        "charge_id": "8b5dbfb3",
+        "ref_id": "75412758056",
+        "trans_id": "19120278871",
+        "currency": "MK",
+        "amount": 51.5,
+        "first_name": "memory",
+        "last_name": "banda",
+        "email": "anniemangoche@gmail.com",
+        "type": "Direct API Payment",
+        "trace_id": "XcXO0bXAgOvPxbIM0pSRRVnFSDCuk705",
+        "status": "pending",
+        "mobile": "+265897xxxx62",
+        "attempts": 1,
+        "mode": "live",
+        "created_at": "2025-04-15T11:15:58.000000Z",
+        "completed_at": null,
+        "event_type": "api.charge.payment",
+        "mobile_money": {
+            "name": "TNM Mpamba",
+            "ref_id": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+            "country": "Malawi"
+        },
+        "transaction_charges": {
+            "currency": "MK",
+            "amount": "1.5"
+        },
+        "authorization": {
+            "channel": "Mobile Money",
+            "card_number": null,
+            "expiry": null,
+            "brand": null,
+            "provider": "TNM Mpamba",
+            "mobile_number": null,
+            "payer_bank_uuid": null,
+            "payer_bank": null,
+            "payer_account_number": null,
+            "payer_account_name": null,
+            "completed_at": null
+        },
+        "logs": []
+    },
+    "gateway_response": null
+}
+[2025-04-15 13:17:09] [INFO] Request Method: POST
+[2025-04-15 13:17:09] [INFO] Request Headers: {"Host":"localhost","Connection":"keep-alive","Content-Length":"675","sec-ch-ua-platform":"\"Windows\"","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36 Edg\/135.0.0.0","sec-ch-ua":"\"Microsoft Edge\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryXAh2CYE2A0QIFE3T","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost","Sec-Fetch-Site":"same-origin","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost\/Magdalene-main\/don.php","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-GB,en;q=0.9,en-US;q=0.8","Cookie":"PHPSESSID=c33jrmer5tvs3oftog65kd48k2"}
+[2025-04-15 13:17:09] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "20be6c20-adeb-4b5b-a7ba-0769820df4fb",
+    "phone": "999746398"
+}
+[2025-04-15 13:17:09] [INFO] Payment initiation requested
+[2025-04-15 13:17:09] [INFO] Generated charge_id: 0ab9c3ae
+[2025-04-15 13:17:09] [INFO] Preparing to send payment request to Paychangu: {
+    "mobile_money_operator_ref_id": "20be6c20-adeb-4b5b-a7ba-0769820df4fb",
+    "amount": 50,
+    "mobile": "999746398",
+    "email": "anniemangoche@gmail.com",
+    "first_name": "memory",
+    "last_name": "banda",
+    "charge_id": "0ab9c3ae"
+}
+[2025-04-15 13:17:16] [INFO] Paychangu initialization response (status 200): {
+    "status": "success",
+    "message": "Payment initiated successfully.",
+    "data": {
+        "charge_id": "0ab9c3ae",
+        "ref_id": "24544179596",
+        "trans_id": "4a3cb692-419a-49dd-b3db-29b535f5f558",
+        "currency": "MK",
+        "amount": 51.5,
+        "first_name": "memory",
+        "last_name": "banda",
+        "email": "anniemangoche@gmail.com",
+        "type": "Direct API Payment",
+        "trace_id": "LJ90hV8VDVgC6EbtqQ3yNI2rogAQCvXa",
+        "status": "pending",
+        "mobile": "+265999xxxx98",
+        "attempts": 1,
+        "mode": "live",
+        "created_at": "2025-04-15T11:17:12.000000Z",
+        "completed_at": null,
+        "event_type": "api.charge.payment",
+        "mobile_money": {
+            "name": "Airtel Money",
+            "ref_id": "20be6c20-adeb-4b5b-a7ba-0769820df4fb",
+            "country": "Malawi"
+        },
+        "transaction_charges": {
+            "currency": "MK",
+            "amount": "1.5"
+        },
+        "authorization": {
+            "channel": "Mobile Money",
+            "card_number": null,
+            "expiry": null,
+            "brand": null,
+            "provider": "Airtel Money",
+            "mobile_number": null,
+            "payer_bank_uuid": null,
+            "payer_bank": null,
+            "payer_account_number": null,
+            "payer_account_name": null,
+            "completed_at": null
+        },
+        "logs": [
+            {
+                "type": "log",
+                "message": "Payment transaction initialized and PIN authorization requested.",
+                "created_at": "2025-04-15T11:17:16.000000Z"
+            }
+        ]
+    },
+    "gateway_response": {
+        "data": {
+            "transaction": {
+                "id": "4a3cb692-419a-49dd-b3db-29b535f5f558",
+                "status": "Success."
+            }
+        },
+        "status": {
+            "response_code": "DP00800001006",
+            "code": "200",
+            "success": true,
+            "result_code": "ESB000010",
+            "message": "Success."
+        }
+    }
+}
+[2025-04-15 13:17:16] [ERROR] Transaction exception: Table 'magdalene_management.payment_logs' doesn't exist
+[2025-04-15 13:34:02] [INFO] Request Method: POST
+[2025-04-15 13:34:02] [INFO] Request Headers: {"Host":"localhost","Connection":"keep-alive","Content-Length":"675","sec-ch-ua-platform":"\"Windows\"","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/135.0.0.0 Safari\/537.36 Edg\/135.0.0.0","sec-ch-ua":"\"Microsoft Edge\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryo6h60i1h7a5ayBnz","sec-ch-ua-mobile":"?0","Accept":"*\/*","Origin":"http:\/\/localhost","Sec-Fetch-Site":"same-origin","Sec-Fetch-Mode":"cors","Sec-Fetch-Dest":"empty","Referer":"http:\/\/localhost\/Magdalene-main\/don.php","Accept-Encoding":"gzip, deflate, br, zstd","Accept-Language":"en-GB,en;q=0.9,en-US;q=0.8","Cookie":"PHPSESSID=c33jrmer5tvs3oftog65kd48k2"}
+[2025-04-15 13:34:02] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "20be6c20-adeb-4b5b-a7ba-0769820df4fb",
+    "phone": "999746398"
+}
+[2025-04-15 13:34:02] [INFO] Payment initiation requested
+[2025-04-15 13:34:02] [INFO] Generated charge_id: 47ea4319
+[2025-04-15 13:34:02] [INFO] Preparing to send payment request to Paychangu: {
+    "mobile_money_operator_ref_id": "20be6c20-adeb-4b5b-a7ba-0769820df4fb",
+    "amount": 50,
+    "mobile": "999746398",
+    "email": "anniemangoche@gmail.com",
+    "first_name": "memory",
+    "last_name": "banda",
+    "charge_id": "47ea4319"
+}
+[2025-04-15 13:34:32] [ERROR] Payment initiation exception: cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/initialize
+[2025-04-15 13:41:29] [INFO] Request Method: POST
+[2025-04-15 13:41:29] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "20be6c20-adeb-4b5b-a7ba-0769820df4fb",
+    "phone": "999746398"
+}
+[2025-04-15 13:41:29] [INFO] Payment initiation requested
+[2025-04-15 13:41:29] [INFO] Generated charge_id: 7e61e90e
+[2025-04-15 13:41:29] [INFO] Preparing to send payment request to Paychangu: {
+    "mobile_money_operator_ref_id": "20be6c20-adeb-4b5b-a7ba-0769820df4fb",
+    "amount": 50,
+    "mobile": "999746398",
+    "email": "anniemangoche@gmail.com",
+    "first_name": "memory",
+    "last_name": "banda",
+    "charge_id": "7e61e90e"
+}
+[2025-04-15 13:41:29] [INFO] Testing API availability
+[2025-04-15 13:41:31] [ERROR] API seems to be down: 404
+[2025-04-15 13:41:31] [ERROR] Payment initiation exception: Payment service appears to be unavailable
+[2025-04-15 13:44:48] [INFO] Request Method: POST
+[2025-04-15 13:44:48] [INFO] POST Data: {
+    "fname": "memory",
+    "lname": "banda",
+    "email": "anniemangoche@gmail.com",
+    "fees": "50",
+    "bank": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "phone": "999746398"
+}
+[2025-04-15 13:44:48] [INFO] Payment initiation requested
+[2025-04-15 13:44:48] [INFO] Generated charge_id: b496e3d1
+[2025-04-15 13:44:48] [INFO] Preparing to send payment request to Paychangu: {
+    "mobile_money_operator_ref_id": "27494cb5-ba9e-437f-a114-4e7a7686bcca",
+    "amount": 50,
+    "mobile": "999746398",
+    "email": "anniemangoche@gmail.com",
+    "first_name": "memory",
+    "last_name": "banda",
+    "charge_id": "b496e3d1"
+}
+[2025-04-15 13:44:48] [INFO] Testing API availability
+[2025-04-15 13:44:49] [ERROR] API seems to be down: 404
+[2025-04-15 13:44:49] [ERROR] Payment initiation exception: Payment service appears to be unavailable

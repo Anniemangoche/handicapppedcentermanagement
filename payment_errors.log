@@ -1,0 +1,42 @@
+[22-Apr-2025 20:31:58 Europe/Berlin] API Request Error: Mobile money operator not found.
+[22-Apr-2025 20:32:58 Europe/Berlin] API Request Error: Mobile money operator not found.
+[22-Apr-2025 20:33:04 Europe/Berlin] API Request Error: Mobile money operator not found.
+[22-Apr-2025 20:33:07 Europe/Berlin] API Request Error: Mobile money operator not found.
+[22-Apr-2025 20:54:22 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:54:49 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:54:55 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:55:01 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:55:09 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:55:21 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:55:32 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:55:39 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:58:12 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:58:39 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:58:50 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 20:59:16 Europe/Berlin] System Error: Unknown column 'trans_id' in 'field list'
+[22-Apr-2025 21:04:24 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:04:36 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:04:44 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:04:59 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:05:10 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:05:21 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:05:29 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:05:45 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:06:01 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:06:11 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:06:45 Europe/Berlin] System Error: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/pay_4cffc364_1745348524/verify
+[22-Apr-2025 21:06:59 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:07:33 Europe/Berlin] System Error: cURL error 28: Operation timed out after 30002 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/pay_4cffc364_1745348524/verify
+[22-Apr-2025 21:07:43 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:07:53 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:08:04 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:08:12 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:08:25 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:08:56 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 21:09:17 Europe/Berlin] API Request Error: Payment Response: The transaction is still processing and is in ambiguous state.
+[22-Apr-2025 23:42:39 Europe/Berlin] System Error: cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/initialize
+[23-Apr-2025 08:17:24 Europe/Berlin] System Error: cURL error 6: Could not resolve host: api.paychangu.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/initialize
+[23-Apr-2025 08:18:30 Europe/Berlin] API Request Error: The entered mobile number is not a valid TNM phone number.
+[09-May-2025 09:33:46 Europe/Berlin] System Error: cURL error 28: Operation timed out after 30005 milliseconds with 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/pay_9fe33c4d_1746775800/verify
+[09-May-2025 12:00:29 Europe/Berlin] System Error: cURL error 6: Could not resolve host: api.paychangu.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/initialize
+[09-May-2025 12:07:24 Europe/Berlin] System Error: cURL error 6: Could not resolve host: api.paychangu.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.paychangu.com/mobile-money/payments/initialize

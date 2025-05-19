@@ -1,0 +1,18 @@
+[12-May-2025 13:41:14 Europe/Berlin] Add child POST request received: Array
+(
+    [fname] => chichi
+    [lname] => banda
+    [dateofbirth] => 2025-05-12
+    [gender] => Female
+    [medical_info] => None
+    [education_info] => asdfgb
+    [staff_email] => nala@gmail.com
+    [relatives_phonenumber] => asdcf
+    [child_backgroundinfo] => asdf
+    [relatives_address] => asdf
+    [submit_add] => 
+)
+
+[12-May-2025 13:41:14 Europe/Berlin] Child record added successfully: chichi banda
+[12-May-2025 16:58:43 Europe/Berlin] date comparison: submitted_date=2025-05-11, today=2025-05-12
+[12-May-2025 16:59:32 Europe/Berlin] date comparison: submitted_date=2025-05-11, today=2025-05-12
